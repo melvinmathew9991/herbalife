@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+.first-div{
+    background-color: #7ac143;
+    margin: 0;
+    display: flex;
+    padding: 15px 0 20px 15px;
+    height: 70px;
+    position: relative;
+}
+
+.first-div img{
+    width: 240px;
+    height: 75px;
+    margin-left: 10px;
+    
+}
+.first-div ul {
+    margin-bottom: 0;
+    position: absolute;
+    display: inline-flex;
+    list-style: none;
+    right: 20px;
+    top: 75px;
+    font-size: medium;
+}
+.first-div ul li{
+    margin-left:20px; 
+    
+}
+.first-div ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.distributor{
+    color: #fff;
+}
+.english{
+    font-weight: bold;
+    color: #4a7727 !important;
+}
+.language{
+    color: #4a7727 !important;
+}
+.first-div ul li.unitedstate{
+    background-color: #bdf6c3;
+    border-radius: 100px;
+    padding: 0 10px 1px 10px !important;
+    color: #4a7727;
+    opacity: 80%;
+    background: #b0da90;
+    height: 20px;
+    display: flex;
+}
+
+.unitedstate img{
+    width: 15px;
+    padding: 3px;
+    margin: -6px;
+    height: 25px;
+    padding-right: 10px
+}
+.second-div{
+    background: #ddd;
+    height: 60px;
+    
+}
+.second-div ul{
+    display: block;
+    list-style: none;
+    display: inline-flex;
+    padding: 20px 0px;
+    text-decoration: none;
+   
+}
+.second-div ul li{
+    padding-left: 25px;
+}
+
+.second-div ul li a{
+    margin-left: 5px;
+    padding-top: 15px;
+    color: #4d4d4d !important;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}   
+.sub-menu1{
+    display: none;
+      
+}
+ .second-div ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.second-div ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 5px;
+    
+}
+.second-div ul li:hover .sub-menu1 ul li{
+    background: transparent;
+    background-color: #fff;
+    
+    
+}  
+ .second-div ul li .sub-menu1 ul {
+    
+    display: block;
+    margin-bottom: 10px;
+} 
+.second-div ul li .sub-menu1 ul li a{
+    
+    border-bottom:1px;
+    text-decoration: none;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: small;
+}
+.third-div{
+    width: 100%;
+    display: block;
+    background-color: #cccccc;
+    text-align: left;
+    position: relative;
+    
+}
+.third-div img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 135px;
+    width: 82%;
+    position: relative;
+    
+    
+}
+.third-div button{
+    display: inline-block;
+    background:#78be20 ;
+    background-color: #78be20;
+    background-image: none;
+    color: white !important;
+    line-height: 16px;
+    border-radius: 20px;
+    border: 3px solid #4a7727;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    padding: 12.8px 48px 12.8px !important;
+    right: 77%;
+    top: 83%;
+    cursor: pointer;
+}
+.third-div button:hover{
+    background: #aae460;
+} 
+.fourth-div{
+    width:100%;
+    display: flex;
+}
+.fifth-div{
+    width: 50%;
+}
+.fifth-div img{
+    width: 52%;
+    margin-top: 10%;
+    padding-left: 267px;
+    margin-bottom: 10%;
+}
+.sixth-div{
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+    
+}
+.sixth-div h1 a{ 
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+.sixth-div p{
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.sixth-div button{
+    display: inline-block;
+    background:#78be20 ;
+    background-color: #78be20;
+    background-image: none;
+    color: white !important;
+    line-height: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    padding: 12.8px 48px 12.8px !important;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.sixth-div button:hover{
+    background: #aae460;
+    border: 3px solid #4a7727;
+}
+.seventh-div{
+    width:100%;
+    display: flex;
+    background-color: #cccccc;
+    
+}
+.eight-div{
+    width: 50%;
+    float: left;
+    padding-top: 60px;
+    padding-left: 260px;
+
+}
+.eight-div h1 a{ 
+   
+    text-decoration: none;
+    font-size: 35px;
+    color: #4d4d4d;
+    
+}
+.eight-div p{
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.eight-div button{
+    display: inline-block;
+    background:#78be20 ;
+    background-color: #78be20;
+    background-image: none;
+    color:white !important;
+    line-height: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    padding: 12.8px 48px 12.8px !important;
+    margin-top: 15px;
+    margin-left: 120px
+}
+.eight-div button:hover{
+    background: #aae460;
+    border: 3px solid #4a7727;
+}
+.ninth-div{
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+}
+
+
+.ninth-div img {
+    width: 60%;
+    margin-bottom: 70px;
+}
+.tenth-div{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.eleventh-div{
+    width: 50%;
+}
+
+.eleventh-div img{
+    width: 60%;
+    margin-top: 10%;
+    padding-left: 250px;
+    margin-bottom: 30px;
+}
+.twelveth-div{
+    width: 50%;
+    float: left;
+    margin-top: -120px;
+}
+
+.twelveth-div h1 a{ 
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+.twelveth-div p{
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.twelveth-div button{
+    display: inline-block;
+    background:#78be20 ;
+    background-color: #78be20;
+    background-image: none;
+    color: white !important;
+    line-height: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    padding: 12.8px 48px 12.8px !important;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.twelveth-div button:hover{
+    background: #aae460;
+    border: 3px solid #4a7727;
+}
+
+.thirteenth-div{
+    width:100%;
+    display: flex;
+    background-color: #cccccc;
+    
+}
+.fourteenth-div{
+    width: 50%;
+    float: left;
+    padding-top: 60px;
+    padding-left: 260px;
+
+}
+.fourteenth-div h1 a{ 
+   
+    text-decoration: none;
+    font-size: 20px;
+    color: #4d4d4d;
+   
+    
+}
+.fourteenth-div p{
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.fourteenth-div button{
+    display: inline-block;
+    background:#78be20 ;
+    background-color: #78be20;
+    background-image: none;
+    color: white !important;
+    line-height: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    padding: 12.8px 48px 12.8px !important;
+    margin-top: 15px;
+    margin-left: 120px
+}
+.fourteenth-div button:hover{
+    background: #aae460;
+    border: 3px solid #4a7727;
+}
+.fifteenth-div{
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+}
+
+
+.fifteenth-div img {
+    width: 60%;
+    margin-bottom: 70px;
+}
+
+.sixteenth-div{
+    width: 100%;
+    display: flex;
+
+}
+
+.seventeenth-div{
+    width: 60%;
+    float: left;
+}
+.seventeenth-div .logo{
+    margin-left: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.seventeenth-div a{
+    color: #7ac143;
+    background: transparent;
+    text-decoration: none;
+    margin-left: 200px;
+
+}
+.seventeenth-div p{
+    margin-left: 200px;
+
+}
+
+.seventeenth-div span{
+    color: #7ac143;
+    cursor: pointer;
+}
+
+.dsa {
+    display: flex;
+    margin-left: 170px;
+    
+}
+
+.dsa img{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.eighteenth-div {
+    width: 40%;
+    /* color: #515151;
+    text-decoration: none; */
+    margin-left: 300px;
+}
+.eighteenth-div h4{
+    margin-top: 35px;
+}
+.eighteenth-div a{
+    color: #515151;
+    text-decoration: none; 
+}
+
+
+    
+
